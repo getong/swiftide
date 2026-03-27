@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763215608716,
-  "repoUrl": "https://github.com/bosun-ai/swiftide",
+  "lastUpdate": 1774632168986,
+  "repoUrl": "https://github.com/getong/swiftide",
   "entries": {
     "Rust Benchmark": [
       {
@@ -29255,6 +29255,60 @@ window.BENCHMARK_DATA = {
             "name": "node_cache/redb",
             "value": 262185,
             "range": "± 2180",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "timonv@gmail.com",
+            "name": "Timon Vonk",
+            "username": "timonv"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3a51ffcd496b106705fe94082ade2c186787933",
+          "message": "feat: Provider tool schema policies and autofix (#1054)",
+          "timestamp": "2026-03-26T15:08:54+01:00",
+          "tree_id": "102fd54319a2badac18b85bd5ceb00f575e86364",
+          "url": "https://github.com/getong/swiftide/commit/c3a51ffcd496b106705fe94082ade2c186787933"
+        },
+        "date": 1774632166991,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "load_1",
+            "value": 0,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load_10",
+            "value": 0,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "run_local_pipeline",
+            "value": 0,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "node_cache/redis",
+            "value": 569093,
+            "range": "± 16470",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "node_cache/redb",
+            "value": 157616,
+            "range": "± 486",
             "unit": "ns/iter"
           }
         ]
